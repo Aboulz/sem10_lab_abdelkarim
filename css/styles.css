@@ -31,3 +31,44 @@ body{
 ----------------------------------------------------------------------------*/
 
 /*-------- Header --------*/
+
+header{
+    background-color: white;
+    border-top: 4px solid #E25254;
+    padding: 20px 0;
+}
+
+header .wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo_header{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font: 300 42px 'Josefin Sans', sans-serif ;
+    color: #000;
+    text-decoration: none;
+}
+
+.menu ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    list-style: none;
+    text-decoration: none;
+    color: #000;
+    margin: 0;
+    padding: 0;
+}
+
+.menu a {
+    padding: 10px;
+    font: normal 1.125rem 'Roboto', sans-serif;
+    color: #474747;
+
+    text-decoration: none;
+}
