@@ -72,3 +72,21 @@ header .wrapper{
 
     text-decoration: none;
 }
+
+/*-------- Hero --------*/
+
+.hero {
+    background: url('../images/Hero.png') center/cover no-repeat;
+    height: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: #fff;
+}
+
+.hero .contenu{
+    height: 510px;
+    width: 600px;
+    background: rgba(226, 82, 84, 0.9);
+}
